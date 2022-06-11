@@ -13,20 +13,9 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +24,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Quote{
+  box-shadow: 2px 2px 8px #282c34;
+  background-color: #ffffff;
+  width:fit-content;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 15px;
+}
+.Quote p i{
+  margin:20px;
+  font-size: 20px;
+}
+.Quote p{
+  font-size: 20px;
+}
+.Arthor{
+  display: flex;
+  justify-content: right;
+  padding: 15px;
+}
+.btn{
+  text-align: end;
+}
+.btn button{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+border: 0px solid white;
+  box-shadow: 2px 2px 2px black;
+}
+.btn button i{
+  color: #ffffff;
+  align-items: flex-end;
 }
